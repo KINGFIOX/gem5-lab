@@ -1,6 +1,6 @@
 {
     "name": "gem5 Development Container",
-    "image": "ghcr.io/gem5/devcontainer:latest",
+    "image": "ghcr.registry.cyou/gem5/ubuntu-24.04_all-dependencies:v25-0",
     "hostRequirements": {
         "cpus": 8,
         "memory": "16gb",
@@ -26,12 +26,6 @@
                 "VisualStudioExptTeam.vscodeintellicode"
             ]
         }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers/features/github-cli:1": {},
-        "ghcr.io/devcontainers-contrib/features/actionlint:1": {},
-        "ghcr.io/devcontainers-contrib/features/vscode-cli:1": {}
     },
     "onCreateCommand": "./.devcontainer/on-create.sh"
 }
