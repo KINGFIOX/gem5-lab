@@ -32,10 +32,11 @@
 set -e
 
 # Making the downloaded repository safe as the owner might differ for .devcontainer env.
-git config --global --add safe.directory /workspaces/gem5
+git config --global --add safe.directory /workspaces/gem5-lab
 
 # Refresh the git index.
 git update-index
 
-# Install the pre-commit checks.
-./util/pre-commit-install.sh
+# NOTE: pre-commit hooks removed (2026-11-14): they blocked lazygit commits
+# (gem5 upstream checks commit-msg format & code style). Do NOT re-enable
+# via pre-commit-install.sh; see .git/hooks/ (deleted shims).

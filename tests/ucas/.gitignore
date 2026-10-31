@@ -1,0 +1,7 @@
+# 实验二进制为构建产物（由本目录 build.sh 按需编译），不入库
+/Lab2-1/factor
+/Lab2-1/factor_rev
+/Lab2-2/bench_gemm
+/Lab2-2/bench_random
+/Lab2-2/bench_seq
+/Lab2-3/cache_test
