@@ -1,0 +1,170 @@
+{
+ "seq_base": {
+  "sim": "0.162902",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": "2098855",
+  "l2h": "13",
+  "dcm": null
+ },
+ "seq_nol2": {
+  "sim": "0.102240",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "seq_freq4": {
+  "sim": "0.074569",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "seq_iw2": {
+  "sim": "0.114534",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "seq_l2_4way": {
+  "sim": "0.162903",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": "2098855",
+  "l2h": "13",
+  "dcm": null
+ },
+ "seq_l2_2m": {
+  "sim": "0.163000",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": "2098855",
+  "l2h": "13",
+  "dcm": null
+ },
+ "seq_l2_16m": {
+  "sim": "0.163804",
+  "insts": "58852712",
+  "ipc": null,
+  "l2m": "2098855",
+  "l2h": "13",
+  "dcm": null
+ },
+ "random_base": {
+  "sim": "0.393172",
+  "insts": "142739014",
+  "ipc": null,
+  "l2m": "9406097",
+  "l2h": "24691",
+  "dcm": null
+ },
+ "random_nol2": {
+  "sim": "0.264239",
+  "insts": "142739014",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "random_freq4": {
+  "sim": "0.221129",
+  "insts": "142739014",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "random_iw2": {
+  "sim": "0.264300",
+  "insts": "142739014",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "random_l2_4way": {
+  "sim": "0.393180",
+  "insts": "142739014",
+  "ipc": null,
+  "l2m": "9406072",
+  "l2h": "24714",
+  "dcm": null
+ },
+ "random_l2_2m": {
+  "sim": null,
+  "insts": null,
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "random_l2_16m": {
+  "sim": null,
+  "insts": null,
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "gemm_base": {
+  "sim": "0.054524",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": "108999",
+  "l2h": "861667",
+  "dcm": null
+ },
+ "gemm_nol2": {
+  "sim": "0.070663",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "gemm_freq4": {
+  "sim": "0.035849",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "gemm_iw2": {
+  "sim": "0.152075",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": null,
+  "l2h": null,
+  "dcm": null
+ },
+ "gemm_l2_4way": {
+  "sim": "0.054584",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": "109955",
+  "l2h": "860718",
+  "dcm": null
+ },
+ "gemm_l2_2m": {
+  "sim": "0.052553",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": "29506",
+  "l2h": "940921",
+  "dcm": null
+ },
+ "gemm_l2_16m": {
+  "sim": "0.052553",
+  "insts": "132104545",
+  "ipc": null,
+  "l2m": "29506",
+  "l2h": "940921",
+  "dcm": null
+ }
+}

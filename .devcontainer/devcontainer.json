@@ -1,31 +1,27 @@
 {
     "name": "gem5 Development Container",
-    "image": "ghcr.registry.cyou/gem5/ubuntu-24.04_all-dependencies:v25-0",
+    "image": "ghcr.io/gem5/ubuntu-24.04_all-dependencies:v25-0",
     "hostRequirements": {
         "cpus": 8,
         "memory": "16gb",
         "storage": "32gb"
-     },
+    },
     "customizations": {
         "vscode": {
             "extensions": [
-                "eamodio.gitlens",
-                "GitHub.copilot",
-                "GitHub.copilot-chat",
-                "GitHub.vscode-pull-request-github",
-                "ms-python.debugpy",
-                "ms-python.isort",
                 "ms-python.python",
-                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
                 "ms-vscode.cpptools",
-                "ms-vscode.cpptools-extension-pack",
-                "ms-vscode.cpptools-themes",
-                "ms-vscode.makefile-tools",
-                "ms-vscode-remote.remote-containers",
-                "Tsinghua-Hexin-Joint-Institute.gem5-slicc",
-                "VisualStudioExptTeam.vscodeintellicode"
-            ]
+                "Tsinghua-Hexin-Joint-Institute.gem5-slicc"
+            ],
+            "settings": {
+                "python.analysis.extraPaths": [
+                    "/workspaces/gem5-lab/tests/ucas/stubs"
+                ],
+                "python.defaultInterpreterPath": "/usr/bin/python3"
+            }
         }
     },
+    "workspaceFolder": "/workspaces/gem5-lab",
     "onCreateCommand": "./.devcontainer/on-create.sh"
 }
